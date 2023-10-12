@@ -17,7 +17,7 @@ const TodoItem = ({ todo, updateTodo, removeTodo}) => {
                     completed && <IconCheck />
                 }
             </button>
-            <p className={`text-gray-600 grow ${completed
+            <p className={`text-gray-600 dark:text-gray-400 grow ${completed
                 && "line-through text-gray-600"
                 }`}
             >
